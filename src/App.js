@@ -46,10 +46,10 @@ export default function App() {
             return null;
           }}/> */}
 
-          <Route exact path="/migizi" render={() => {
+          {/* <Route exact path="/migizi" render={() => {
             window.open("https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=wWsk24ZWJSTZKsGd1RMKlg0BDvsSG3VIWQCPJNNxD8upkiY7JlDavDsozUE7KG0nFx2NSo8LdUKGuGuF396vbe3IlxBEDvWpyHE5B509BR-XHubq5Z7ap5JVmPErc4ZeYHCKCZhESjGNQmZ5B-6dx5HutT3tgoe4wdbCqVUkWdA%3D&ver=3&utm_source=qr&utm_medium=poster&utm_campaign=blm-poster");
             return (<div />);
-          }} />
+          }} /> */}
           {/* <Route exact path="/du-nord-riot-recovery-fund" render={() => {
             window.open("https://www.gofundme.com/f/minnesota-poc-business-support?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet");
             return null;
