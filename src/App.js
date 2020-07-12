@@ -54,7 +54,7 @@ export default function App() {
             window.open("https://www.gofundme.com/f/minnesota-poc-business-support?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet");
             return null;
           }} />
-          <Route path="/tccj4j" />
+          <Route exact path="/tccj4j" />
         </Switch>
 
       </div>
