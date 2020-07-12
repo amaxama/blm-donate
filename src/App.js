@@ -26,6 +26,9 @@ export default function App() {
             <li>
               <Link to="/du-nord-riot-recovery-fund">Du Nord Riot Recovery Fund</Link>
             </li>
+            <li>
+              <Link to="/tccj4j">Twin Cities Coalition for Justice 4 Jamar</Link>
+            </li>
           </ul>
         </nav>
 
@@ -51,6 +54,7 @@ export default function App() {
             window.open("https://www.gofundme.com/f/minnesota-poc-business-support?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet");
             return null;
           }} />
+          <Route path="/tccj4j" />
         </Switch>
 
       </div>
