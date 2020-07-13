@@ -42,6 +42,12 @@ export default function App() {
                 </a>
               </li>
               <li>
+                <Link className="App-link" to="/latino-community-lake-street">Latino Community on Lake Street</Link>
+              </li>
+              <li>
+                <Link className="App-link" to="/jxta">Juxtaposition Arts</Link>
+              </li>
+              <li>
                 <Link className="App-link" to="/migizi">Migizi</Link>
               </li>
               <li> 
