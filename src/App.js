@@ -58,7 +58,6 @@ export default function App() {
             </ul>
             </header>
 
-
         <Switch>
           <Route path="/about">
             <About />
@@ -66,20 +65,6 @@ export default function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          {/* <Route path="/migizi" render={() => (window.location = "https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=wWsk24ZWJSTZKsGd1RMKlg0BDvsSG3VIWQCPJNNxD8upkiY7JlDavDsozUE7KG0nFx2NSo8LdUKGuGuF396vbe3IlxBEDvWpyHE5B509BR-XHubq5Z7ap5JVmPErc4ZeYHCKCZhESjGNQmZ5B-6dx5HutT3tgoe4wdbCqVUkWdA%3D&ver=3&utm_source=qr&utm_medium=poster&utm_campaign=blm-poster")} /> */}
-
-          {/* <Route path="/migizi" component={() => {
-            window.location.href = "https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=wWsk24ZWJSTZKsGd1RMKlg0BDvsSG3VIWQCPJNNxD8upkiY7JlDavDsozUE7KG0nFx2NSo8LdUKGuGuF396vbe3IlxBEDvWpyHE5B509BR-XHubq5Z7ap5JVmPErc4ZeYHCKCZhESjGNQmZ5B-6dx5HutT3tgoe4wdbCqVUkWdA%3D&ver=3&utm_source=qr&utm_medium=poster&utm_campaign=blm-poster";
-            return null;
-          }}/> */}
-
-          {/* <Route exact path="/migizi" render={() => {
-            window.open("https://www.eservicepayments.com/cgi-bin/Vanco_ver3.vps?appver3=wWsk24ZWJSTZKsGd1RMKlg0BDvsSG3VIWQCPJNNxD8upkiY7JlDavDsozUE7KG0nFx2NSo8LdUKGuGuF396vbe3IlxBEDvWpyHE5B509BR-XHubq5Z7ap5JVmPErc4ZeYHCKCZhESjGNQmZ5B-6dx5HutT3tgoe4wdbCqVUkWdA%3D&ver=3&utm_source=qr&utm_medium=poster&utm_campaign=blm-poster");
-            return (<div />);
-          }} /> */}
-
-          <Redirect exact from="/migizi" to="/migizi-test" />
-
         </Switch>
 
       </div>
