@@ -11,8 +11,6 @@ import {
 } from "react-router-dom";
 
 export default function App() {
-console.log("hello")
-
   return (
     <Router>
       <div className="App">
