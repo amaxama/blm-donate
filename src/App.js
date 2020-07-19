@@ -50,6 +50,9 @@ export default function App() {
               <li>
                 <Link className="App-link" to="/migizi">Migizi</Link>
               </li>
+              <li>
+                <Link className="App-link" to="/migizi-test">Migizi-Test</Link>
+              </li>
               <li> 
                 <a className="App-link" href="https://blm-donate.netlify.app/tccj4j">
                   Twin Cities Coalition for Justice 4 Jamar
@@ -79,6 +82,9 @@ export default function App() {
           }} /> */}
 
           <Redirect exact from="/migizi" to="/migizi-test" />
+          <Route exact path="/migizi-test">
+            <Home />
+          </Route>
 
         </Switch>
 
