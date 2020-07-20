@@ -42,13 +42,13 @@ export default function App() {
                 </a>
               </li>
               <li>
-                <a className="App-link" href="/latino-community-lake-street">
-                  Latino Community on Lake Street
+                <a className="App-link" href="/jxta">
+                  Juxtaposition Arts
                 </a>
               </li>
               <li>
-                <a className="App-link" href="/jxta">
-                  Juxtaposition Arts
+                <a className="App-link" href="/latino-community-lake-street">
+                  Latino Community on Lake Street
                 </a>
               </li>
               <li>
