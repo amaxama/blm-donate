@@ -42,13 +42,19 @@ export default function App() {
                 </a>
               </li>
               <li>
-                <Link className="App-link" to="/latino-community-lake-street">Latino Community on Lake Street</Link>
+                <a className="App-link" href="/latino-community-lake-street">
+                  Latino Community on Lake Street
+                </a>
               </li>
               <li>
-                <Link className="App-link" to="/jxta">Juxtaposition Arts</Link>
+                <a className="App-link" href="/jxta">
+                  Juxtaposition Arts
+                </a>
               </li>
               <li>
-                <Link className="App-link" to="/migizi">Migizi</Link>
+                <a className="App-link" href="/migizi">
+                  Migizi
+                </a>
               </li>
               <li> 
                 <a className="App-link" href="https://blm-donate.netlify.app/tccj4j">
